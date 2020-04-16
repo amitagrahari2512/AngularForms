@@ -1,0 +1,63 @@
+1 - Create Component in Angular : 
+
+ng g c products/product-detail --Flat(It is not created folder)
+
+
+2 - Create guard in Angular : 
+
+ng g g products/product-detail
+
+
+3 - Create module in Angular : 
+
+ng g m products/product --flat -m app (- m app, we put its finctonality in app module.)
+
+
+4 - Install Angular CLI - 
+
+npm install -g @angular/cli
+
+5 - Show Version :
+
+ng v
+
+
+6 - Cli createng new project:(ng new) 
+
+ng new 'project Name'
+
+
+7 - Cli launches server :(ng serve)
+
+ng serve (It's not open default browser)
+
+ng serve -o (It's open default browser)
+
+8 - CLI generate command :(ng g) : get list (ng g --help)
+
+generate Component : ng g c component-name (ng g c welcome)
+generate module : ng g m module-name
+generate dataService: ng g s service-name
+
+and so on
+
+9 - CLI Test command : 
+	(ng test) (Run unit test using Karma)
+		ng test (Its run on karma tool)
+
+	(ng e2e) (end to end Test using Protractor)
+		ng e2e (Its open browser and close browser)
+
+10 - Help Command :
+
+ng help
+
+11 - We can add third party components
+
+ng add ngx-bootstrap  --component buttons
+ng add ngx-bootstrap  --component datepicker
+ng add ngx-bootstrap  --component timepicker
+ng add ngx-bootstrap  --component rating
+
+
+
